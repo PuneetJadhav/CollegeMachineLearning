@@ -15,8 +15,6 @@ colnames(blog_train) <- c(63:262,"Dependent")
 ## install packages
 #install.packages('caTools')
 library(caTools)
-
-### Running data for 10 iteration 
 mse_total=0
 
   ### Regression
